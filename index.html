@@ -8,11 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+
+ <link rel="stylesheet" href="css/style.css">
 <title> Night Pulse | Carreras nocturnas </title>
 </head>
 <body>
 
-<header class="headerNightPulse"> <!-- Encabeza de mi página, IMPORTANTE!!! Considerar la class para darle esrtilo en el css -->
+<header class="headerNightPulse"> <!-- Encabezado de mi página, IMPORTANTE!!! Considerar la class para darle esrtilo en el css -->
       <div class="logo">
         <img src="img/logo.png" alt="Logo Night Pulse " class="logo">
         <h1>Night Pulse</h1>
@@ -21,7 +23,7 @@
       <nav class="nav">
         <ul>
           <li><a href="#inicio" class="nav-button">Inicio</a></li>
-          <li><a href="#quienes-somos" class="nav-button">About</a></li>
+          <li><a href="#carreras" class="nav-button">Carreras</a></li>
           <li><a href="#regiones" class="nav-button">Regiones</a></li>
           <li><a href="#contacto" class="nav-button">Contacto</a></li>
         </ul>
@@ -52,12 +54,54 @@
       </div>
       </div>
       
+    </section> <!-- Aquí termina toda lo del hero, donde esta mi video y los dos botones-->
+  <!-- INICIO DE LA SECCIÓN SOBRE NOSOTROS, Nuestra misión, quienes somos, etc-->
+    <section id="carreras" class="carreras">
+      <h2>Quiénes Somos</h2>
+      <div class="content">
+        <p> En NIGHT PULSE somos una marca que transforma las carreras nocturnas en experiencias únicas, combinando deporte, música y entretenimiento. Organizamos carreras de 5K y 10K con luces neón, DJs y un ambiente lleno de energía, donde cada participante puede superar sus límites y disfrutar de una noche diferente.</p>
+      </div>
     </section>
-
-
-
 
   </main>
 
+  <footer id="contacto-niPulse">
+    <div class="footer-grid">
+      <div class="contacto">
+        <h3>Contacto</h3>
+        <address>
+          <p>
+            <i class="fa fa-map-marker-alt"></i>
+            <a href="https://maps.app.goo.gl/dV3SViPDPQY4AxsK7" target="_blank" rel="noreferrer noopener">
+            <span style="color: #b9ddff; font-weight: bold">Ubicación: </span> Centro Urbano Pdte. Juárez
+            </a>
+          </p>
+          <p>
+            <i class="fa fa-phone"></i>
+            <span style="color: #b9ddff; font-weight: bold">Teléfono: </span> <a href="tel:+5624784887"> 56 2478 4887</a>
+          </p>
+        </address>
+      </div>
+      
+      <div class="redes-sociales">
+        <h3>Síguenos en redes sociales</h3>
+        <div class="redes-iconos">
+          <a href="https://www.facebook.com/?locale=es_LA" aria-label="Síguenos en Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/fer.ledeesma/" aria-label="Síguenos en Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@ferrr.ledessma" aria-label="Síguenos en TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+<div class="footer-bottom">
+      <button onclick="scrollToTop()" class="scroll-to-top-btn" aria-label="Volver al inicio de la página">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+
+   <p class="copyright">&copy; 2026 Night Pulse. Todos los derechos reservados.</p>  
+ </div>
+  </footer>
+
+
 </body>
 </html>
+
