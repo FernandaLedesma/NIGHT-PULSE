@@ -13,8 +13,8 @@
   
   body {
   line-height: 1.6; /* Define la altura de cada línea de texto, para que no esté muy apretado. */
-  color: #333;
-  background-color: #EEE3C8;
+  color: #6D28D9;
+  background-color: #260736;
   font-family: 'Fredoka', sans-serif;
   }
   
@@ -126,7 +126,7 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
   color: white;
-  background-color: #e740f38f;
+  background-color: #6D28D9;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 50px;
@@ -173,7 +173,7 @@
 
   /* Sección Quiénes Somos */
   .quienes-somos {
-  background-color: #b9ddff;
+  background-color: #FFB347;
   }
   
   .quienes-somos h2 {
