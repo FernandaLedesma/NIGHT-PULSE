@@ -159,7 +159,7 @@
   }
   .btn:hover {
   background: transparent;
-  color: #ba4ec6;
+  color: #beb1c0;
   border-color: #786f7e;
   }
 
@@ -282,7 +282,7 @@
   }
   
   .column img {
-  border: 7px solid #251D82;
+  border: 7px solid #f4f4f7;
   border-radius: 15px;
   }
 
@@ -301,9 +301,41 @@
   display: table;
   }
 
+  .meteored_fer {
+  text-align: center;
+  background-color: #b9ddff;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .meteored_fer h3 {
+  color: #333;
+  margin-bottom: 40px;
+  }
+  
+  .meteored_fer p {
+  margin-bottom: 10px;
+  } {
+  text-align: center;
+  background-color: #b9ddff;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .xx h3 {
+  color: #333;
+  margin-bottom: 40px;
+  }
+  
+  .xxx p {
+  margin-bottom: 10px;
+  }
+
    /* Pie de página (footer) */
   footer {
-  background-color: #251D82;
+  background-color: #202076;
   color: #ffffff;
   padding: 40px 20px 20px;
   text-align: center;
@@ -339,7 +371,7 @@
   }
   
   .contacto-niPulse a {
-  color: #dc1bf5;
+  color: #fdfdfd;
   text-decoration: none;
   transition: color 0.3s;
   }
@@ -368,7 +400,7 @@
   .scroll-to-top-btn {
   background-color: #9a2cfa;
   border: none;
-  color: #de3bb2;
+  color: #f7f7f7;
   padding: 10px 15px;
   border-radius: 50%;
   cursor: pointer;
@@ -388,3 +420,41 @@
   font-size: 0.8rem;
   margin: 0;
   }
+
+  /*Aside*/
+
+  .Próximas-Convocatorias {
+  text-align: center;
+  background-color: #A66D52;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-family: "Quicksand", sans-serif;
+  }
+
+  /* Estilos para la sección de clima actual */
+.current-weather {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.city-name {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+.temperature {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.description, .details p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}

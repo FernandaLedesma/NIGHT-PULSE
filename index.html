@@ -69,7 +69,7 @@
       <div class="filter-buttons">
         <button class="filter-btn" data-category="all">Todos</button>
         <button class="filter-btn" data-category="regiones">Regiones</button>
-        <button class="filter-btn active" data-category="unete">Únete</button>
+        <button class="filter-btn" data-category="unete">Únete</button>
       </div>
     
     <!-- Aquí va la primera card-->
@@ -164,8 +164,50 @@
                 </div>
             </figure>
 
-          
+    </div>
+     </div>
+    </div>
+    </div>
+    </section>
+      <!-- Vamos a conectar nuestra aplicación web con una api del clima, para esto utilizamos openwathermap -->
+       
+      <section id="meteored_fer" class="meteored_fer"> 
+
+        <h2>Pronostico del clima con NIGHTPULSE </h2>
+        <div id="meteored_fer" class="meteored_fer"> 
+            <p> Información del clima...</p>
+
+          <div class="search-box">
+                <input type="text" id="city-input" placeholder="Ingresa una ciudad de México (ej: Monterrey)">
+                <button id="search-button">Buscar</button>
+            </div>
+          <div id="weather-data" style="display: none;">
+                <div id="current-weather" class="current-weather"></div>
+
+      </section>
+      
+
      </main>
+
+     <div class="row">
+      <h3>Organizamos tu evento</h3>
+      <div class="column">
+        <img src="img/foto9.jpg" alt="rest1" style="width:80%; height:20%;">
+      </div>
+      <div class="column">
+        <img src="img/foto10.jpg" alt="rest2" style="width:80%; height:20%;">
+      </div>
+      <div class="column">
+        <img src="img/foto11.jpg" alt="rest3" style="width:80%; height:20%;">
+      </div>  
+    </div>
+
+
+  <aside class="promociones">
+    <h3>Próximas Convocatorias</h3>
+    <p>¡Durante todo el mes de<b> octubre</b>, la esterilización de tu mascota es gratuita en nuestra clínica asociada!</p>
+    <p>Todos los viernes,<span style="font-weight: bold; color: #251D82"> 10%</span> de descuento en la consulta veterinaria.</p>
+  </aside>
 
   <footer id="contacto-niPulse">
 
@@ -203,6 +245,8 @@
    <p class="copyright">&copy; 2026 Night Pulse. Todos los derechos reservados.</p>  
  </div>
   </footer>
+
+  <script src="js/script.js"></script>
 
 
 </body>
